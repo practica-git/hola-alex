@@ -21,4 +21,11 @@ class Response
     {
         return json_encode($this);
     }
+    
+        function holaAlex()
+    {
+        if(6>8){
+            echo 'Hola Alex';
+        }
+    }
 }
