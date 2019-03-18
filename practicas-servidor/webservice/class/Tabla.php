@@ -308,4 +308,11 @@ class Tabla
 
     }
     
+    function holaAlex()
+    {
+        if(6>8){
+            echo 'Hola Alex';
+        }
+    }
+    
 }
