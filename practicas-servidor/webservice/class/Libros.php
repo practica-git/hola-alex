@@ -119,4 +119,8 @@ class Libros extends Tabla {
         }
         
     }
+    
+    function merge() {
+        echo "Mergeamos!?";
+    }
 }
