@@ -46,4 +46,6 @@ if ($verb == "GET") {
         $http->setHttpHeaders(200, new Response("Lista de los libros",$objeto->serialize()));
     }
     
+} else if($verb == "PUT") {
+    echo "El verbo es put";
 }
